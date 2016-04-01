@@ -8,7 +8,7 @@ $ sudo apt-get install libusb-dev
 ```
 
 Next it’s required to update the usb_modeswitch to the latest version in order to make the Sakis3G function properly. Please note that the Sakis3G will only work when the usb_modeswitch switches the usb-storage to GSM/3G interface automatically. The sakis3g_godfather.sh (Ver. 2.0) was improved to force ‘mode switch’ only for Huawei dongles. 
-Download the latest usb_modeswitch and usb-modeswitch-data from [http://www.draisberghof.de/](http://www.draisberghof.de/usb_modeswitch/)
+Download the latest usb_modeswitch and usb-modeswitch-data from [www.draisberghof.de/](http://www.draisberghof.de/usb_modeswitch/)
 Installation instructions are given in the webpage itself. 
 
 Note: Comment the udev rule to auto connect the Huawei dongles at /lib/udev/rules.d/40-usb_modeswitch.rules to shop hanging the Raspberry Pi when the modem was plugged in.
