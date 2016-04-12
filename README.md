@@ -1,7 +1,7 @@
 # Sakis3g Godfather
 sakis3g_godfather is a wrapper for the original sakis3g script which automates the connection and force mode switch when required
 
-## sakis3g_godfather dependencies:
+## sakis3g_godfather preliminaries:
 ```sh
 $ sudo apt-get install ppp
 $ sudo apt-get install libusb-dev
